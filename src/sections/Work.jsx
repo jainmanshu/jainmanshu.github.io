@@ -7,7 +7,7 @@ import WorkTechStack from '../components/WorkTechStack';
 function Work({ innerRef }) {
   return (
     <section ref={innerRef} id="work" className="scroll-mt-16">
-      <div className="py-4 max-w-3xl mx-auto">
+      <div className="py-4 pr-1 max-w-3xl mx-auto">
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
