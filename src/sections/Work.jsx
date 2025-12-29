@@ -1,7 +1,7 @@
-import BestBuyTechStack from "../components/BestBuyTechStack";
-import C1TechStack from "../components/C1TechStack";
-import ResearchTechStack from "../components/ResearchStack";
-import WorkTechStack from "../components/WorkTechStack";
+import BestBuyTechStack from '../components/BestBuyTechStack';
+import C1TechStack from '../components/C1TechStack';
+import ResearchTechStack from '../components/ResearchStack';
+import WorkTechStack from '../components/WorkTechStack';
 
 // eslint-disable-next-line react/prop-types
 function Work({ innerRef }) {
@@ -11,27 +11,45 @@ function Work({ innerRef }) {
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
-            Amazon
-              <div className="font-caveat font-medium text-sm ml-1">
-              Seattle, Washington, USA
-              </div>
+              Amazon
+              <div className="font-caveat font-medium text-sm ml-1">Seattle, Washington, USA</div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
-                Sept 2025 - Present
+                Sep 2025 - Present
               </div>
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
             <div>
-              <div className="italic font-bold text-slate-600 ml-2">
-                Frontend Engineer
-              </div>
+              <div className="italic font-bold text-slate-600 ml-2">Frontend Engineer</div>
               <ul className="list-disc text-sm ml-5">
                 <li>
-                  Building <a target="_blank" rel="noopener noreferrer" href="https://aws.amazon.com/quicksuite/" className="inline-flex font-medium items-center decoration-dotted hover:underline">
-                  Amazon Quick Suite!  
-                  <svg className="w-4 h-4 ms-2 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/></svg>
-                 </a>
+                  Building{' '}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://aws.amazon.com/quicksuite/"
+                    className="inline-flex font-medium items-center decoration-dotted hover:underline"
+                  >
+                    Amazon Quick Suite!
+                    <svg
+                      className="w-4 h-4 ms-2 rtl:rotate-[270deg]"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
+                      />
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -39,9 +57,7 @@ function Work({ innerRef }) {
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
               Best Buy
-              <div className="font-caveat font-medium text-sm ml-1">
-                Richfield, Minnesota, USA
-              </div>
+              <div className="font-caveat font-medium text-sm ml-1">Richfield, Minnesota, USA</div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
@@ -50,39 +66,41 @@ function Work({ innerRef }) {
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
             <div>
-              <div className="italic font-bold text-slate-600 ml-2">
-                Sr. Full Stack Engineer
-              </div>
+              <div className="italic font-bold text-slate-600 ml-2">Sr. Full Stack Engineer</div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
                 <li>
-                  Part of the Personalization & Discovery Apps Experience team, enhancing the Discover page experience across Best Buy&#8217;s mobile
-                  and web platforms, which drives $1B+ in revenue annually and attracts 100M+ unique visitors monthly.
+                  Part of the Personalization & Discovery Apps Experience team, enhancing the
+                  Discover page experience across Best Buy&#8217;s mobile and web platforms, which
+                  drives $1B+ in revenue annually and attracts 100M+ unique visitors monthly.
                 </li>
                 <li>
-                  Migrated Discover widgets to Unified Presentation Architecture with TypeScript, React Native, Next.js, GraphQL, and
-                  Golang microservices, enabling cross-platform compatibility and reducing code duplication by 60%. 
+                  Migrated Discover widgets to Unified Presentation Architecture with TypeScript,
+                  React Native, Next.js, GraphQL, and Golang microservices, enabling cross-platform
+                  compatibility and reducing code duplication by 60%.
                 </li>
                 <li>
-                  Developed key monetization features in collaboration with AdTech and Experimentation teams, including Sponsored
-                  Ads widgets, AI Conversational Experiences, Gift Finder tools and Social Shopping experiences.
+                  Developed key monetization features in collaboration with AdTech and
+                  Experimentation teams, including Sponsored Ads widgets, AI Conversational
+                  Experiences, Gift Finder tools and Social Shopping experiences.
                 </li>
                 <li>
-                  Optimized Discover, Department and Category page performance through front-end optimizations techniques via
-                  caching, code-splitting and SSR, reducing load times by 50%, enhancing user experience and conversion rates. 
+                  Optimized Discover, Department and Category page performance through front-end
+                  optimizations techniques via caching, code-splitting and SSR, reducing load times
+                  by 50%, enhancing user experience and conversion rates.
                 </li>
                 <li>
-                  Contributed to team operations through on-call/concierge support, mentoring, technical documentation, and participation in architecture reviews and technical documentation.
+                  Contributed to team operations through on-call/concierge support, mentoring,
+                  technical documentation, and participation in architecture reviews and technical
+                  documentation.
                 </li>
-                <BestBuyTechStack/>
+                <BestBuyTechStack />
               </ul>
             </div>
           </div>
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
               Trimble Inc.
-              <div className="font-caveat font-medium text-sm ml-1">
-                Minnetonka, Minnesota, USA
-              </div>
+              <div className="font-caveat font-medium text-sm ml-1">Minnetonka, Minnesota, USA</div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <div className="sm:absolute lg:-ml-10 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
@@ -91,38 +109,32 @@ function Work({ innerRef }) {
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
             <div>
-              <div className="italic font-bold text-slate-600 ml-2">
-                Sr. Software Engineer
-              </div>
+              <div className="italic font-bold text-slate-600 ml-2">Sr. Software Engineer</div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
                 <li>
-                  Worked on modernization of NextGen fleet telematics
-                  application, optimizing fleet management for a substantial
-                  customer base, achieving 35% increase in customer retention.
+                  Worked on modernization of NextGen fleet telematics application, optimizing fleet
+                  management for a substantial customer base, achieving 35% increase in customer
+                  retention.
                 </li>
                 <li>
-                  Deployed Single-Sign-On (SSO) capability through a tailored
-                  federation approach connecting OAuth2.0 with enterprise
-                  identity using openID connect, resulting in a 30% reduction in
-                  login times.
+                  Deployed Single-Sign-On (SSO) capability through a tailored federation approach
+                  connecting OAuth2.0 with enterprise identity using openID connect, resulting in a
+                  30% reduction in login times.
                 </li>
                 <li>
-                  Built a robust internal open-source web component library,
-                  based on React with adherence to Material-UI design principles
-                  and UX considerations, resulting in an average of 150+ weekly
-                  downloads, documented using Storybook.js.
+                  Built a robust internal open-source web component library, based on React with
+                  adherence to Material-UI design principles and UX considerations, resulting in an
+                  average of 150+ weekly downloads, documented using Storybook.js.
                 </li>
                 <li>
-                  Owned and developed Node microservices using PostgreSQL as
-                  database, Kafka for event streaming, Redis for caching,
-                  Elasticsearch for document store, Docker/Kubernetes for
-                  containerization and AWS for reliability and scalability.
+                  Owned and developed Node microservices using PostgreSQL as database, Kafka for
+                  event streaming, Redis for caching, Elasticsearch for document store,
+                  Docker/Kubernetes for containerization and AWS for reliability and scalability.
                 </li>
                 <li>
-                  Conducted code reviews, authored technical design
-                  documentation, mentored junior team members, and facilitated
-                  agile practices, resulting in a streamlined development
-                  process and heightened team productivity.{" "}
+                  Conducted code reviews, authored technical design documentation, mentored junior
+                  team members, and facilitated agile practices, resulting in a streamlined
+                  development process and heightened team productivity.{' '}
                 </li>
                 <WorkTechStack />
               </ul>
@@ -147,16 +159,14 @@ function Work({ innerRef }) {
               </div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
                 <li>
-                  Developed and documented a cellular image analysis application
-                  responsible for extracting key parameters (cell count, area,
-                  intensity, filopodia length) for Metazoa and Amoebozoa, vital
-                  for early-stage cancer cell detection.
+                  Developed and documented a cellular image analysis application responsible for
+                  extracting key parameters (cell count, area, intensity, filopodia length) for
+                  Metazoa and Amoebozoa, vital for early-stage cancer cell detection.
                 </li>
                 <li>
-                  Refactored the application code from MatLab to an automated
-                  ImageJ JavaScript application, cutting down the overall stats
-                  generation time by 80%, significantly improving performance
-                  and elevating user experience.
+                  Refactored the application code from MatLab to an automated ImageJ JavaScript
+                  application, cutting down the overall stats generation time by 80%, significantly
+                  improving performance and elevating user experience.
                 </li>
                 <ResearchTechStack />
               </ul>
@@ -181,16 +191,14 @@ function Work({ innerRef }) {
               </div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
                 <li>
-                  Engineered a contact center application with Cisco Unified
-                  Communications Manager, adhering closely to agile
-                  methodologies, resulting in a significant 66.7% reduction in
-                  average call wait time from 15 minutes to 5 minutes.
+                  Engineered a contact center application with Cisco Unified Communications Manager,
+                  adhering closely to agile methodologies, resulting in a significant 66.7%
+                  reduction in average call wait time from 15 minutes to 5 minutes.
                 </li>
                 <li>
-                  Orchestrated full-stack application development, showcasing
-                  proficiency in backend technologies such as C#, .NET SQL, REST
-                  API, VXML, and frontend technologies including Typescript,
-                  Angular.js, Karma testing, and Bower.
+                  Orchestrated full-stack application development, showcasing proficiency in backend
+                  technologies such as C#, .NET SQL, REST API, VXML, and frontend technologies
+                  including Typescript, Angular.js, Karma testing, and Bower.
                 </li>
                 <C1TechStack />
               </ul>
@@ -210,17 +218,14 @@ function Work({ innerRef }) {
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
             <div>
-              <div className="italic font-bold text-slate-600 ml-2">
-                Audio Visual Technician
-              </div>
+              <div className="italic font-bold text-slate-600 ml-2">Audio Visual Technician</div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
                 <li>
-                  Operated TV studio classrooms, which broadcast live courses to
-                  off campus student.
+                  Operated TV studio classrooms, which broadcast live courses to off campus student.
                 </li>
                 <li>
-                  Responsible for setting up classroom and operating the master
-                  control during lectures
+                  Responsible for setting up classroom and operating the master control during
+                  lectures
                 </li>
               </ul>
             </div>

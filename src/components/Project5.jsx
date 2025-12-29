@@ -1,5 +1,5 @@
-import data from "../assets/data.png";
-import Buttons from "./Buttons";
+import data from '../assets/data.png';
+import Buttons from './Buttons';
 
 function Project5() {
   return (
@@ -10,12 +10,11 @@ function Project5() {
       <img src={data} className="w-full h-70" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Developed a CDAL-Language-Translator compiler to translate Climate Data
-        Analysis Language (CDAL) programs into C++. Adhered to the Google C++
-        style guide during code implementation and employed industry design
-        practices with an Iterative development model cycle. Ensured the
-        application's reliability through thorough testing using the CxxTest
-        library's unit testing framework.
+        Developed a CDAL-Language-Translator compiler to translate Climate Data Analysis Language
+        (CDAL) programs into C++. Adhered to the Google C++ style guide during code implementation
+        and employed industry design practices with an Iterative development model cycle. Ensured
+        the application's reliability through thorough testing using the CxxTest library's unit
+        testing framework.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
@@ -28,10 +27,7 @@ function Project5() {
           />
         </div>
         <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
-          <Buttons
-            name="Github"
-            href="https://github.com/jainmanshu/CDAL-Language-Translator"
-          />
+          <Buttons name="Github" href="https://github.com/jainmanshu/CDAL-Language-Translator" />
         </div>
       </div>
     </div>

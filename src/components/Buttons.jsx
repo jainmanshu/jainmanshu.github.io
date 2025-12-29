@@ -1,4 +1,4 @@
-function Buttons({ href = "#", name = "Button Name" }) {
+function Buttons({ href = '#', name = 'Button Name' }) {
   return (
     <a
       href={href}

@@ -1,5 +1,5 @@
-import game from "../assets/game.png";
-import Buttons from "./Buttons";
+import game from '../assets/game.png';
+import Buttons from './Buttons';
 
 function Project3() {
   return (
@@ -10,12 +10,10 @@ function Project3() {
       <img src={game} className="w-full h-70" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Created a Zombie Defender Game Mobile App using C# in Unity Engine,
-        aimed at learning mobile game development. The app runs on both Android
-        and iOS, providing an engaging experience. Defend your garden from
-        zombie attacks, strategically using stars to spawn defenders. With three
-        progressively challenging levels, the game offers an enjoyable
-        experience for players.
+        Created a Zombie Defender Game Mobile App using C# in Unity Engine, aimed at learning mobile
+        game development. The app runs on both Android and iOS, providing an engaging experience.
+        Defend your garden from zombie attacks, strategically using stars to spawn defenders. With
+        three progressively challenging levels, the game offers an enjoyable experience for players.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />

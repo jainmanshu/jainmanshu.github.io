@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
-import { useInView } from "react-intersection-observer";
-import About from "./sections/About";
-import Education from "./sections/Education";
-import Footer from "./sections/Footer";
-import Navbar from "./sections/Navbar";
-import Project from "./sections/Project";
-import Work from "./sections/Work";
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
+import About from './sections/About';
+import Education from './sections/Education';
+import Footer from './sections/Footer';
+import Navbar from './sections/Navbar';
+import Project from './sections/Project';
+import Work from './sections/Work';
 
 function App() {
   const [section1Ref, section1InView] = useInView({ threshold: 0.2 });

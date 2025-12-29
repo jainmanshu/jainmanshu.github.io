@@ -1,4 +1,4 @@
-import { SiImagej } from "react-icons/si";
+import { SiImagej } from 'react-icons/si';
 
 function C1TechStack() {
   return (

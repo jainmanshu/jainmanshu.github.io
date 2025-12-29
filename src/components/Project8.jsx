@@ -1,5 +1,5 @@
-import leaderboard from "../assets/leaderboard.png";
-import Buttons from "./Buttons";
+import leaderboard from '../assets/leaderboard.png';
+import Buttons from './Buttons';
 
 function Project8() {
   return (
@@ -11,11 +11,10 @@ function Project8() {
       <img src={leaderboard} className="w-full h-70" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Developed the Paris Olympics 2024 Standings Chrome Extension to provide
-        real-time medal updates for the Paris 2024 Summer Olympics. Using React,
-        TypeScript, and Tailwind CSS, the extension features a user-friendly
-        interface that displays the top-performing countries and a comprehensive
-        leaderboard.
+        Developed the Paris Olympics 2024 Standings Chrome Extension to provide real-time medal
+        updates for the Paris 2024 Summer Olympics. Using React, TypeScript, and Tailwind CSS, the
+        extension features a user-friendly interface that displays the top-performing countries and
+        a comprehensive leaderboard.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
@@ -48,14 +47,11 @@ function Project8() {
           />
         </div>
         <div className="w-36 py-1 flex flex-col gap-2 items-center">
-          <Buttons
+          {/* <Buttons
             name="Chromestore"
             href="https://chromewebstore.google.com/detail/paris-olympics-2024-stats/dfdcmllfkdjklbcefknhalbcmbgmlcnf"
-          />
-          <Buttons
-            name="Github"
-            href="https://github.com/jainmanshu/olympics-tracker-extension"
-          />
+          /> */}
+          <Buttons name="Github" href="https://github.com/jainmanshu/olympics-tracker-extension" />
         </div>
       </div>
     </div>

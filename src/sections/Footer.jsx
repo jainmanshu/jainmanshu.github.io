@@ -7,31 +7,22 @@ function Footer() {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-          <a
-            href="https://linkedin.com/in/jainmanshu"
-            className="hover:underline me-4 md:me-6"
-          >
+          <a href="https://linkedin.com/in/jainmanshu" className="hover:underline me-4 md:me-6">
             LinkedIn
           </a>
         </li>
         <li>
-          <a
-            href="https://medium.com/@jainmanshu"
-            className="hover:underline me-4 md:me-6"
-          >
+          <a href="https://medium.com/@jainmanshu" className="hover:underline me-4 md:me-6">
             Medium
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/jainmanshu"
-            className="hover:underline me-4 md:me-6"
-          >
+          <a href="https://github.com/jainmanshu" className="hover:underline me-4 md:me-6">
             Github
           </a>
         </li>
         <li>
-          <a href="mailto:jainmanshu@gmail.com" className="hover:underline">
+          <a href="mailto:hello@manshu.dev" className="hover:underline">
             Contact
           </a>
         </li>

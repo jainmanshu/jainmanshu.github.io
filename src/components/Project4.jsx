@@ -1,22 +1,19 @@
-import truck from "../assets/trucking.png";
-import Buttons from "./Buttons";
-import signal from "../assets/signalzen-logo.png";
+import truck from '../assets/trucking.png';
+import Buttons from './Buttons';
+import signal from '../assets/signalzen-logo.png';
 
 function Project4() {
   return (
     <div className="shadow-lg p-2 rounded-xl my-10">
-      <h2 className="text-center text-3xl font-semibold text-indigo-700 pb-2">
-        Trucking Website
-      </h2>
+      <h2 className="text-center text-3xl font-semibold text-indigo-700 pb-2">Trucking Website</h2>
       <img src={truck} className="w-full h-70" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Built a trucking website during my internship at Trimble (formely
-        PeopleNet Communications). I was primarily responsible for the
-        development of a customer support chatbot made with using SignalZen,
-        seamlessly enabling end-to-end messaging on the website. The chatbot was
-        integrated with Slack for swift and effective responses, enhancing the
-        overall user experience.
+        Built a trucking website during my internship at Trimble (formely PeopleNet Communications).
+        I was primarily responsible for the development of a customer support chatbot made with
+        using SignalZen, seamlessly enabling end-to-end messaging on the website. The chatbot was
+        integrated with Slack for swift and effective responses, enhancing the overall user
+        experience.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
@@ -38,10 +35,7 @@ function Project4() {
           />
         </div>
         <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
-          <Buttons
-            name="Github"
-            href="https://github.com/jainmanshu/trucking_website"
-          />
+          <Buttons name="Github" href="https://github.com/jainmanshu/trucking_website" />
         </div>
       </div>
     </div>

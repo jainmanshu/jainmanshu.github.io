@@ -1,5 +1,5 @@
-import pokeballs from "../assets/pokeball-demo.gif";
-import Buttons from "./Buttons";
+import pokeballs from '../assets/pokeball-demo.gif';
+import Buttons from './Buttons';
 
 function Project9() {
   return (
@@ -10,11 +10,10 @@ function Project9() {
       <img src={pokeballs} className="w-full h-70" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Created a highly interactive and engaging web challenge where users
-        opened Pokéballs in real-time, gaining unexpected popularity on Reddit
-        with nearly 2.8K active users and completing the challenge in 8 days.
-        This project demonstrated strong user engagement and scalability while
-        handling high traffic efficiently.
+        Created a highly interactive and engaging web challenge where users opened Pokéballs in
+        real-time, gaining unexpected popularity on Reddit with nearly 2.8K active users and
+        completing the challenge in 8 days. This project demonstrated strong user engagement and
+        scalability while handling high traffic efficiently.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />

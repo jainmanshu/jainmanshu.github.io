@@ -1,5 +1,5 @@
-import Maze from "../assets/maze.png";
-import Buttons from "./Buttons";
+import Maze from '../assets/maze.png';
+import Buttons from './Buttons';
 
 function Project2() {
   return (
@@ -10,11 +10,10 @@ function Project2() {
       <img src={Maze} className="w-full h-45" />
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <p className="text-xs py-4 text-slate-700">
-        Crafted a randomized Maze Solver in a Java IDE environment, visually
-        representing mazes using the Java StdDraw external library. The solver
-        employed diverse algorithms such as Depth-first Search, Breadth-first
-        Search, A* search, and Dijkstra algorithm. This project aimed at
-        deepening my understanding of pathfinding in Artificial Intelligence.
+        Crafted a randomized Maze Solver in a Java IDE environment, visually representing mazes
+        using the Java StdDraw external library. The solver employed diverse algorithms such as
+        Depth-first Search, Breadth-first Search, A* search, and Dijkstra algorithm. This project
+        aimed at deepening my understanding of pathfinding in Artificial Intelligence.
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
@@ -33,10 +32,7 @@ function Project2() {
           />
         </div>
         <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
-          <Buttons
-            name="Github"
-            href="https://github.com/jainmanshu/AI-Maze-Solver"
-          />
+          <Buttons name="Github" href="https://github.com/jainmanshu/AI-Maze-Solver" />
         </div>
       </div>
     </div>

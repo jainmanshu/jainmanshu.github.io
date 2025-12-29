@@ -1,4 +1,4 @@
-import elastic from "../assets/elastic.png";
+import elastic from '../assets/elastic.png';
 function WorkTechStack() {
   return (
     <div className="flex flex-wrap gap-3 py-3">
