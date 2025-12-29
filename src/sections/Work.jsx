@@ -1,3 +1,4 @@
+import BestBuyTechStack from "../components/BestBuyTechStack";
 import C1TechStack from "../components/C1TechStack";
 import ResearchTechStack from "../components/ResearchStack";
 import WorkTechStack from "../components/WorkTechStack";
@@ -10,6 +11,33 @@ function Work({ innerRef }) {
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
+            Amazon
+              <div className="font-caveat font-medium text-sm ml-1">
+              Seattle, Washington, USA
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+              <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+                Sept 2025 - Present
+              </div>
+              <div className="text-xl font-bold text-slate-900"></div>
+            </div>
+            <div>
+              <div className="italic font-bold text-slate-600 ml-2">
+                Frontend Engineer
+              </div>
+              <ul className="list-disc text-sm ml-5">
+                <li>
+                  Building <a target="_blank" rel="noopener noreferrer" href="https://aws.amazon.com/quicksuite/" className="inline-flex font-medium items-center decoration-dotted hover:underline">
+                  Amazon Quick Suite!  
+                  <svg className="w-4 h-4 ms-2 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/></svg>
+                 </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="relative pl-8 sm:pl-32 py-3 group">
+            <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
               Best Buy
               <div className="font-caveat font-medium text-sm ml-1">
                 Richfield, Minnesota, USA
@@ -17,7 +45,7 @@ function Work({ innerRef }) {
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
-                Oct 2024 - Present
+                Oct 2024 - Sep 2025
               </div>
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
@@ -26,7 +54,26 @@ function Work({ innerRef }) {
                 Sr. Full Stack Engineer
               </div>
               <ul className="list-disc text-sm text-slate-700 ml-5">
-                <li>Personalization & Discovery Mobile Apps teams.</li>
+                <li>
+                  Part of the Personalization & Discovery Apps Experience team, enhancing the Discover page experience across Best Buy&#8217;s mobile
+                  and web platforms, which drives $1B+ in revenue annually and attracts 100M+ unique visitors monthly.
+                </li>
+                <li>
+                  Migrated Discover widgets to Unified Presentation Architecture with TypeScript, React Native, Next.js, GraphQL, and
+                  Golang microservices, enabling cross-platform compatibility and reducing code duplication by 60%. 
+                </li>
+                <li>
+                  Developed key monetization features in collaboration with AdTech and Experimentation teams, including Sponsored
+                  Ads widgets, AI Conversational Experiences, Gift Finder tools and Social Shopping experiences.
+                </li>
+                <li>
+                  Optimized Discover, Department and Category page performance through front-end optimizations techniques via
+                  caching, code-splitting and SSR, reducing load times by 50%, enhancing user experience and conversion rates. 
+                </li>
+                <li>
+                  Contributed to team operations through on-call/concierge support, mentoring, technical documentation, and participation in architecture reviews and technical documentation.
+                </li>
+                <BestBuyTechStack/>
               </ul>
             </div>
           </div>
